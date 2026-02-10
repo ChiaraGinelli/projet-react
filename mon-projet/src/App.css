@@ -1,0 +1,27 @@
+.app {
+  padding: 30px;
+  text-align: center;
+  
+}
+
+.grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.team-member {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+}
+
+.team-member img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
